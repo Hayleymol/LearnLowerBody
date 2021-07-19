@@ -12,14 +12,18 @@ Research for lower body generation using imitation learning using PPO. I made us
 ### How to train & How to play trained model
 
 #### Prerequisites
-1)	Recommend creating virtual environment 
-2)	Download Unity ML Agents version higher than 1.8.0 [ML-Agents](https://github.com/Unity-Technologies/ml-agents)
-3)	Unity Version Higher than 2020.2.7 (Highly possible that lower version will work though)
+1) Recommend creating virtual environment 
+2) Download Unity ML Agents version higher than 1.8.0 [ML-Agents](https://github.com/Unity-Technologies/ml-agents)
+3) Unity Version Higher than 2020.2.7 (Highly possible that lower version will work though)
 
 #### Sample Data
 We used only one data to train(m_LocomotionFlat01_000_local.csv) since it includes variety of movement including sudden turn, run and walk,
 
 #### Training
+1) Open Unity scene and build the project with the number of environment that you want.
+2) Once build, put Animation folder in WalkMe folder
+3) navigate to where ML agent is located and run the following command
+
 
 
 #### Some details
