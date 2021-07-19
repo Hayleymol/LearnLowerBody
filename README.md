@@ -20,9 +20,12 @@ Research for lower body generation using imitation learning using PPO. I made us
 We used only one data to train(m_LocomotionFlat01_000_local.csv) since it includes variety of movement including sudden turn, run and walk,
 
 #### Training
-1) Open Unity scene and build the project with the number of environment that you want.
-2) Once build, put Animation folder in WalkMe folder
-3) navigate to where ML agent is located and run the following command
+1) Build the project with the number of environment that you want. Or you can simply run directly through UI which will be much slower though.
+2) Once build, copy and paste Asset/Animation folder under the generated build location.
+3) navigate to ML agent run the ml agents command which will be look something like
+mlagents-learn <trainer-config-file> --env=<env_name> --run-id=<run-identifier> 
+4) If you use executable, using --no-graphics will faster the training speed.
+
 
 
 
