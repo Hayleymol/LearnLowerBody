@@ -7,8 +7,7 @@ Research for lower body generation using imitation learning using PPO. I made us
 ### Preview
 ![initialization](Images/initialization.png)
 
-![walk](Images/run1.jpg)
-![walk](Images/run2.jpg)
+
 
 ### How to train & How to play trained model
 
