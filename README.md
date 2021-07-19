@@ -1,11 +1,14 @@
 # LearnLowerBody
 
-Research for lower body generation using imitation learning using PPO. I made use of Unity ML-Agents [ML-Agents](https://github.com/Unity-Technologies/ml-agents) to create reinforcement learning environment for lower body locomotion generation that follows kinematic motion. This repository reproduced results of two papers (DeepMimic, Learning Simulate and Predict) which are mentioned at the reference part.
+Research for lower body generation using imitation learning using PPO. I made use of Unity [ML-Agents](https://github.com/Unity-Technologies/ml-agents) to create reinforcement learning environment for lower body locomotion generation that follows kinematic motion. This repository reproduced results of two papers (DeepMimic, Learning Simulate and Predict) which are mentioned at the reference part.
 
 
 
 ### Preview
+![initialization](Images/initialization.png)
 
+![walk](Images/run1.jpg)
+![walk](Images/run2.jpg)
 
 ### How to train & How to play trained model
 
